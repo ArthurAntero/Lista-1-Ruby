@@ -1,4 +1,4 @@
-x = [-10, -15, -20, 10, 20, 5]
+x = gets.delete("[]").delete(" ").split(",").map(&:to_i)
 maior = x.max;
 menor = x.min;
 maiorAonde = x.index(maior);
